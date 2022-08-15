@@ -17,6 +17,7 @@
 		4016200B2880907B00172E7E /* DrinkListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4016200A2880907B00172E7E /* DrinkListViewController.swift */; };
 		4016201728819D5F00172E7E /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4016201628819D5F00172E7E /* NetworkManager.swift */; };
 		4050AE4F2885ABCC0037782F /* DrinkCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4050AE4E2885ABCC0037782F /* DrinkCell.swift */; };
+		4089E8CD28A4F34000F52F84 /* CocktailAppV2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4089E8CC28A4F34000F52F84 /* CocktailAppV2Tests.swift */; };
 		40B38C4528882781000AAB4B /* DrinkRecipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B38C4428882780000AAB4B /* DrinkRecipeViewController.swift */; };
 		40B38C47288827FE000AAB4B /* ImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B38C46288827FE000AAB4B /* ImageCell.swift */; };
 		40B38C4928883C43000AAB4B /* IngredientCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B38C4828883C43000AAB4B /* IngredientCell.swift */; };
@@ -24,6 +25,16 @@
 		40C97C3828984FD2006EFB17 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C97C3728984FD2006EFB17 /* StorageManager.swift */; };
 		9FE5C1C470B00E55E85CAEB8 /* Pods_CocktailAppV2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA77996CBCEFBD78130AF0DA /* Pods_CocktailAppV2.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4089E8CE28A4F34000F52F84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40161FD2288020CB00172E7E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40161FD9288020CC00172E7E;
+			remoteInfo = CocktailAppV2;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		40161FDA288020CC00172E7E /* CocktailAppV2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CocktailAppV2.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -38,6 +49,8 @@
 		4016200A2880907B00172E7E /* DrinkListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkListViewController.swift; sourceTree = "<group>"; };
 		4016201628819D5F00172E7E /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		4050AE4E2885ABCC0037782F /* DrinkCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkCell.swift; sourceTree = "<group>"; };
+		4089E8CA28A4F34000F52F84 /* CocktailAppV2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CocktailAppV2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4089E8CC28A4F34000F52F84 /* CocktailAppV2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocktailAppV2Tests.swift; sourceTree = "<group>"; };
 		40B38C4428882780000AAB4B /* DrinkRecipeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkRecipeViewController.swift; sourceTree = "<group>"; };
 		40B38C46288827FE000AAB4B /* ImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCell.swift; sourceTree = "<group>"; };
 		40B38C4828883C43000AAB4B /* IngredientCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientCell.swift; sourceTree = "<group>"; };
@@ -57,6 +70,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4089E8C728A4F34000F52F84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -64,6 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				40161FDC288020CC00172E7E /* CocktailAppV2 */,
+				4089E8CB28A4F34000F52F84 /* CocktailAppV2Tests */,
 				40161FDB288020CC00172E7E /* Products */,
 				AA7A05FBA420FD68925E1FD2 /* Pods */,
 				C1DDFE985A2EE49D6BD0B7BF /* Frameworks */,
@@ -74,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				40161FDA288020CC00172E7E /* CocktailAppV2.app */,
+				4089E8CA28A4F34000F52F84 /* CocktailAppV2Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -157,6 +179,14 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		4089E8CB28A4F34000F52F84 /* CocktailAppV2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4089E8CC28A4F34000F52F84 /* CocktailAppV2Tests.swift */,
+			);
+			path = CocktailAppV2Tests;
+			sourceTree = "<group>";
+		};
 		AA7A05FBA420FD68925E1FD2 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -196,6 +226,24 @@
 			productReference = 40161FDA288020CC00172E7E /* CocktailAppV2.app */;
 			productType = "com.apple.product-type.application";
 		};
+		4089E8C928A4F34000F52F84 /* CocktailAppV2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4089E8D228A4F34000F52F84 /* Build configuration list for PBXNativeTarget "CocktailAppV2Tests" */;
+			buildPhases = (
+				4089E8C628A4F34000F52F84 /* Sources */,
+				4089E8C728A4F34000F52F84 /* Frameworks */,
+				4089E8C828A4F34000F52F84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4089E8CF28A4F34000F52F84 /* PBXTargetDependency */,
+			);
+			name = CocktailAppV2Tests;
+			productName = CocktailAppV2Tests;
+			productReference = 4089E8CA28A4F34000F52F84 /* CocktailAppV2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -208,6 +256,10 @@
 				TargetAttributes = {
 					40161FD9288020CC00172E7E = {
 						CreatedOnToolsVersion = 13.0;
+					};
+					4089E8C928A4F34000F52F84 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 40161FD9288020CC00172E7E;
 					};
 				};
 			};
@@ -225,6 +277,7 @@
 			projectRoot = "";
 			targets = (
 				40161FD9288020CC00172E7E /* CocktailAppV2 */,
+				4089E8C928A4F34000F52F84 /* CocktailAppV2Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -237,6 +290,13 @@
 				40161FEA288020CE00172E7E /* LaunchScreen.storyboard in Resources */,
 				40161FE7288020CE00172E7E /* Assets.xcassets in Resources */,
 				40161FE5288020CC00172E7E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4089E8C828A4F34000F52F84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,7 +364,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4089E8C628A4F34000F52F84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4089E8CD28A4F34000F52F84 /* CocktailAppV2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4089E8CF28A4F34000F52F84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40161FD9288020CC00172E7E /* CocktailAppV2 */;
+			targetProxy = 4089E8CE28A4F34000F52F84 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		40161FE3288020CC00172E7E /* Main.storyboard */ = {
@@ -506,6 +582,52 @@
 			};
 			name = Release;
 		};
+		4089E8D028A4F34000F52F84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4R74NDZ36U;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ggg.gggfsdfsdf.CocktailAppV2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CocktailAppV2.app/CocktailAppV2";
+			};
+			name = Debug;
+		};
+		4089E8D128A4F34000F52F84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4R74NDZ36U;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ggg.gggfsdfsdf.CocktailAppV2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CocktailAppV2.app/CocktailAppV2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -523,6 +645,15 @@
 			buildConfigurations = (
 				40161FEF288020CE00172E7E /* Debug */,
 				40161FF0288020CE00172E7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4089E8D228A4F34000F52F84 /* Build configuration list for PBXNativeTarget "CocktailAppV2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4089E8D028A4F34000F52F84 /* Debug */,
+				4089E8D128A4F34000F52F84 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
