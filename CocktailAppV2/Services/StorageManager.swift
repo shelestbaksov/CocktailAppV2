@@ -19,11 +19,11 @@ class StorageManager {
     }
     
     func isFavorite(drink: Drink) -> Bool {
-        favoriteDrinks.contains(drink) // O(1)
+        favoriteDrinks.contains(drink)
     }
     
     func addToFavorites(drink: Drink) {
-        favoriteDrinks.insert(drink) // O(1)
+        favoriteDrinks.insert(drink) 
     }
     
     func fetchFavoriteDrinks() -> [Drink] {

@@ -1,6 +1,6 @@
 import UIKit
 
-class DrinkListViewController: UITableViewController/*, DrinkCellDelegate*/ {
+class DrinkListViewController: UITableViewController {
     
     var storageManager: StorageManager!
     var onFavoritesChanged: (() -> ())?
